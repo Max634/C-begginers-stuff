@@ -1,0 +1,11 @@
+int main()
+{ 
+	
+	double f;
+	double m;
+	cout << "Enter the length of the feet";
+	cin >> f;
+	m = f / 3.28;
+	cout << f << "feet is" << m << "meters";
+	return 0;
+  }
