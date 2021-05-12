@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double result, n, d;
+	cout << "Enter the value";
+	cin >> n;
+	cout << "Enter the divisor";
+	cin >> d;
+	if (d != 0); {
+		cout << "d does not equal zero os divison is OK" << "\n";
+		result = n / d;
+		cout << n << "/" << d << " is" << result;
+	}
+	return 0;
+}
